@@ -14,7 +14,7 @@ spec:
         app: echo-ui
     spec:
       containers:
-      - image: ealen/echo-server:latest12
+      - image: ealen/echo-server:latest
         name: echo-ui
         ports:
         - containerPort: 80
